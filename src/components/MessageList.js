@@ -35,6 +35,7 @@ class MessageList extends React.Component {
               key={index}
               username={message.senderId}
               text={message.text}
+              createdAt={message.createdAt}
             />
           );
         })}

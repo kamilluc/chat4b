@@ -1,0 +1,20 @@
+.message-username{
+    /* float: left;
+    text-align: right;
+    display: block; */
+}
+
+.message-text{
+    float: left;
+    text-align: right;
+    display: inline;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.avatar{
+    float: left;
+    display: inline;
+    font-size: 70%;
+}

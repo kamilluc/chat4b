@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    height: 100vh;
+   background-color:#282c34; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+img{
+    margin-top: 3vh;
+}
+
+h1{
+    text-align: center;
+    color: #3e9a83;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+main {
+    flex: 1 0 auto;
+}
