@@ -1,3 +1,7 @@
+8 i 15 stycznia prezentacja - 10/15min kazda
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
