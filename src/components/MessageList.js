@@ -22,7 +22,7 @@ class MessageList extends React.Component {
     if (!this.props.roomId) {
       return (
         <div className="message-list">
-          <div className="join-room">&larr; Join a room!</div>
+          <div className="join-room">&larr; Dołącz do grupy!</div>
         </div>
       );
     }

@@ -13,7 +13,7 @@ class Signin extends Component {
     return (
       <div>
               <div className="container">
-              <h1><a href="http://68.183.66.48/">Chat4B</a></h1>
+              <h1><a href="http://68.183.66.48/" target='_blank' rel="noopener noreferrer">Chat4B</a></h1>
 <h4>Zaloguj się!</h4>
         <div className="row">
           <form className="col s8">
@@ -31,8 +31,8 @@ class Signin extends Component {
           
             <div className="col 12">
             {/* <button onClick={this.props.changeRoute}> */}
-              <a className="waves-effect waves-light btn blue center" onClick={(e)=>this.props.changeRoute(this.state.user, this.state.password)}>
-                Start
+              <a className="waves-effect waves-light btn blue center" style={{width: '150px'}} onClick={(e)=>this.props.changeRoute(this.state.user, this.state.password)}>
+                <strong>Start</strong>
               </a>
               {/* </button> */}
             </div>
@@ -41,11 +41,11 @@ class Signin extends Component {
           <div className="logos">
           <div className="col s4">
           <div className="row">
-          <a href="http://68.183.66.48">
-          <img src="http://68.183.66.48/wp-content/uploads/2018/10/logo-2.png" />
+          <a href="http://68.183.66.48" target='_blank' rel="noopener noreferrer">
+          <img src="http://68.183.66.48/wp-content/uploads/2018/10/logo-2.png" alt="logo"/>
           </a>
           </div>
-          <a href="http://68.183.66.48">
+          <a href="http://68.183.66.48" target='_blank' rel="noopener noreferrer">
           <h6>Sprawdź Chat4B</h6>
           </a>
           </div>

@@ -9,7 +9,7 @@ class RoomList extends React.Component {
       <div className="rooms-list">
         {/* <div className="help-text">Rooms:</div> */}
         <ul>
-          <h3>Your rooms:</h3>
+          <h3>Twoje grupy:</h3>
           {orderedRooms.map(room => {
             const active = this.props.roomId === room.id ? "active" : "";
             return (

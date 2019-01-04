@@ -16,3 +16,9 @@ funkcjonalnosci / co mozna zrobic
 
 screeny -> reszta projektu pokazania po prezentacji
 
+nowe
+data na pl
+obrazki z linkow i fix diva
+wysokosc www
+kto online?
+usun kanaly i wiadomosci przed oddaniem i dodaj nowe

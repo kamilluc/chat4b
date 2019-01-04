@@ -137,6 +137,7 @@ text: text
   render() {
     return (
       <div className="app">
+      <h6 className='info-bar'>To jedynie wersja demonstracyjna, zobacz pełną ofertę na🌍<a href="http://68.183.66.48/" target='_blank' rel="noopener noreferrer">{"Chat4B.com"}</a></h6>
         <RoomList
           roomId={this.state.roomId}
           subscribeToRoom={this.subscribeToRoom}
